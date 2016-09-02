@@ -1,6 +1,9 @@
 DevTips-Starter-Kit (Jekyll Friendly)
 ===================
 
+Started August 30, 2016 - Present
+Learned from DevTips - How to Build a Responsive Website From Start to Finish
+
 Use this as a simple structure for a simple start to a simple site.
 
 
