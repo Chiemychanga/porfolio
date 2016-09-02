@@ -1,0 +1,76 @@
+h3
+	@extend %small-bold
+	color: $accent
+	text-align: center
+	padding: 50px 0 30px
+	
+.face-lockup
+	max-width: 780px
+	+display(flex)
+	+align-items(center)
+	+justify-content(space-around)
+	margin: 0 auto
+	
+	.face-img
+		+size(200px)
+		border-radius: 50%
+		background: url(/assets/css/img/face.jpg) center center
+		+align-items(center)
+		background-size: cover
+		order: 3
+		
+	[class^="icon-"]
+		+size(100px)
+		background: $bgcolor
+		border-radius: 50%
+		
+		path
+			fill: $accent
+		
+		&.icon-pencil
+			order: 1
+		&.icon-mouse
+			order: 2
+		&.icon-browser
+			order: 4
+		&.icon-video
+			order: 5
+	//As it compacts to 650px, the header will be up top
+	//and bottom collapses down		
+@media screen and (max-width: 650px)
+	.face-lockup
+		display: block
+		text-align: center
+		
+		div
+			display: inline-block
+		
+		.face-img
+			display: block
+			background-position: center center
+			background-repeat: no-repeat
+			+size(200px)
+			margin: 0 auto 60px
+			
+		[class^="icon-"]
+			margin: 10px
+			
+			
+.about-section
+	max-width: 620px
+	padding: 0 10px
+	margin: 50px auto 50px
+	font-size: 24px
+	text-align: center
+	font-weight: 300
+	
+.skill-lockup
+	max-width: 700px
+	margin: 100px auto
+	color: #999
+	+clearfix //useful in float based layouts, 
+	//otherwise skill-lockup would be in the footer.
+	
+	.skill-unit
+		width: 350px
+		float: left
