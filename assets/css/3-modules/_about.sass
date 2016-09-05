@@ -3,14 +3,16 @@ h3
 	color: $accent
 	text-align: center
 	padding: 50px 0 30px
-	
+
+
+
 .face-lockup
 	max-width: 780px
 	+display(flex)
 	+align-items(center)
 	+justify-content(space-around)
 	margin: 0 auto
-	
+
 	.face-img
 		+size(200px)
 		border-radius: 50%
@@ -18,44 +20,48 @@ h3
 		+align-items(center)
 		background-size: cover
 		order: 3
-		
+
 	[class^="icon-"]
 		+size(100px)
 		background: $bgcolor
 		border-radius: 50%
-		
+
 		path
 			fill: $accent
-		
+
 		&.icon-pencil
 			order: 1
+			//	+order(1)
 		&.icon-mouse
 			order: 2
+		//	+order(2)
 		&.icon-browser
 			order: 4
+		//	+order(4)
 		&.icon-video
 			order: 5
+		//	+order(5)
 	//As it compacts to 650px, the header will be up top
-	//and bottom collapses down		
+	//and bottom collapses down
 @media screen and (max-width: 650px)
 	.face-lockup
 		display: block
 		text-align: center
-		
+
 		div
 			display: inline-block
-		
+
 		.face-img
 			display: block
 			background-position: center center
 			background-repeat: no-repeat
 			+size(200px)
 			margin: 0 auto 60px
-			
+
 		[class^="icon-"]
 			margin: 10px
-			
-			
+
+
 .about-section
 	max-width: 620px
 	padding: 0 10px
@@ -63,14 +69,52 @@ h3
 	font-size: 24px
 	text-align: center
 	font-weight: 300
-	
+
 .skill-lockup
 	max-width: 700px
 	margin: 100px auto
 	color: #999
-	+clearfix //useful in float based layouts, 
+	+clearfix
+	//useful in float based layouts,
 	//otherwise skill-lockup would be in the footer.
-	
+
 	.skill-unit
 		width: 350px
 		float: left
+
+	.skill-icons
+		font-size: 0
+		margin: 0px 0 30px
+
+		span
+			display: inline-block
+			/*inline-block elements arelike inline elements but they can have a width and a height.*/
+			+size(14px)
+			background-color: $accent
+			//The thing with inline-block is that the spans separated
+			//by a newline will show a gap.  */
+			margin-right: 5px
+			//margin-right will create small 2px margins between each span.
+			border-radius: 50%
+
+			//creates empty circles effect
+			&:after
+				content: ''
+				display: block
+				+size(10px)
+				background: #fff
+				border-radius: 50%
+				margin: 2px
+
+		@for $i from 1 through 10
+			&.skill-#{$i} span:nth-child(n+#{$i+1})
+			//by having the @extend here vs background, we have one iteration of
+			//the background in the CSS instead of every child.
+				@extend %skill-color
+
+	%skill-color
+		background: $bgcolor
+
+@media screen and (max-width: 701px)
+	.skill-lockup
+		width: 350px
