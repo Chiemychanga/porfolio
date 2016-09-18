@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #c99065;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #e3c6b1; }
 
 ::selection {
   background: #FFF498; }
@@ -226,22 +226,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header nav a, header .subheader, footer .lockup .content-wrap nav a, h3 {
+h3 {
+  color: #e1c184;
+  text-align: center;
+  padding: 50px 0 30px; }
+
+@media screen and (max-width: 480px) {
+  padding: 50px 0 50px; }
+h3, header nav a, header .subheader, footer .lockup .content-wrap nav a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
 
 header {
-  height: auto;
-  padding-bottom: 30px;
-  background: url(img/moto.jpg) center center;
-  background-size: cover; }
+  height: 400px;
+  background: url(/assets/css/img/moto.jpg) center center;
+  background-size: cover;
+  padding-bottom: 10px;
+  background-position: top left, 50% 50%; }
   header .logo {
-    /*+size(100px) */
-    float: left;
-    margin: 10px 0 0 30px; }
-    header .logo path {
-      /* fill: rgba(0,0,0,0.4) this is all black, comment this line to get original pdx colors */ }
+    float: left; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
@@ -272,24 +276,24 @@ header {
     line-height: 1; }
 
 footer {
-  background: url(img/moto.jpg) center center;
+  background: url(/assets/css/img/moto.jpg) center center;
   background-size: cover;
-  height: 220px; }
+  padding: 10px 0px 50px; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
   footer .lockup {
-    padding: 50px 30px; }
+    padding: 10px 30px 50px; }
     footer .lockup:after {
       content: "";
       display: table;
       clear: both; }
     footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      float: left;
-      margin: 0 0 0 0;
-      padding-top: 30px;
-      /*margin-right: 30px */ }
-      footer .lockup .logo path {
-        fill: rgba(0, 0, 0, 0.5); }
+      height: 10px;
+      width: 10px;
+      padding: 30px;
+      float: left; }
     footer .lockup .content-wrap {
       float: left; }
       footer .lockup .content-wrap nav a {
@@ -303,11 +307,6 @@ footer {
         text-transform: uppercase;
         color: rgba(0, 0, 0, 0.4);
         font-size: 12px; }
-
-h3 {
-  color: #c99065;
-  text-align: center;
-  padding: 50px 0 30px; }
 
 .face-lockup {
   max-width: 780px;
@@ -341,7 +340,6 @@ h3 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(/assets/css/img/face.jpg) center center;
     -webkit-box-align: center;
     -moz-box-align: center;
     box-align: center;
@@ -405,7 +403,7 @@ h3 {
     float: left; }
   .skill-lockup .skill-icons {
     font-size: 0;
-    margin: 0px 0 30px; }
+    margin: 0 0 30px; }
     .skill-lockup .skill-icons span {
       display: inline-block;
       /*inline-block elements arelike inline elements but they can have a width and a height. */
@@ -422,6 +420,10 @@ h3 {
         background: #fff;
         border-radius: 50%;
         margin: 2px; }
+
+.skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
+  background: #afd5ff; }
+
 @media screen and (max-width: 701px) {
   .skill-lockup {
     width: 350px; } }

@@ -3,7 +3,7 @@
 
 	<div class="face-lockup">
 
-		<div class="face-img"></div>
+		<div class="face-img" style="background-image: url(/assets/css/img/{{site.avatar}})"></div>
 
 		<div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
 		<div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
@@ -14,9 +14,7 @@
 	</div>
 
 	<div class="about-section">
-		<p>I have created this portfolio website during my
-		summer break after <strong>I finished my CS202 class!</strong>
-		</p>
+		{{ site.about-section }}
 	</div>
 
 

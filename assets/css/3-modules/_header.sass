@@ -1,32 +1,27 @@
 header
-	height: auto
-	padding-bottom: 30px
-	background: url(img/moto.jpg) center center
+	height: 400px
+	background: url(/assets/css/img/moto.jpg) center center
 	background-size: cover
-		
+	padding-bottom: 10px
+	background-position: top left, 50% 50%
+
 	.logo
-		/*+size(100px)*/
 		float: left
-		margin: 10px 0 0 30px
-		
-		path
-			/* fill: rgba(0,0,0,0.4) this is all black, comment this line to get original pdx colors */
-		
-		
+
 	nav
 		float: right
 		margin: 30px 30px 0 0 /*North East South West*/
-		
+
 		a
 			display: inline-block
 			margin-left: 20px
-			
+
 			color: rgba(0,0,0,0.7)
 			@extend %small-bold
-			
+
 			&:hover
 				color: rgba(0,0,0,1)
-				
+
 	h1
 		text-align: center
 		font:
@@ -36,20 +31,18 @@ header
 		text-transform: uppercase
 		letter-spacing: 0.05em
 		margin-bottom: 20px
-		clear: both 
+		clear: both
 		padding-top: 20px
-		
-		
+
+
 		span
 			display: inline-block
 			padding: 0.2em 0.5em
 			border: white solid 10px
-			
+
 	.subheader
 		@extend %small-bold
 		text-align: center
 		letter-spacing: 0.05em
 		color: white
 		line-height: 1
-		
-	
