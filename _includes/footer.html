@@ -1,20 +1,17 @@
-<footer id="footer" style="background-image: url(/assets/css/img/{{site.logo}}), url(/assets/css/img/{{site.bg-img}});">
+<footer id="footer">
 
-	<div class="lockup">
-		<!-- <div class="logo">{% include icons/logo.svg %}</div>  -->
+  <div class="lockup">
 
-		<div class="content-wrap">
+    <div class="content-wrap">
+      <nav>
+        {% for item in site.data.settings.menu %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
 
-			<nav>
-				<a href="#about-me">About me</a>
-				<a href="#me">Projects</a>
-				<a href="#clients">Testimonials</a>
-				<a href="#contact">Contact</a>
-			</nav>
+      <p class="copyright">All content copyright {{ site.time | date: '%Y' }}</p>
+    </div>
 
-			<p class="copyright">All content copyright 2016</p>
-		</div>
-
-	</div>
+  </div>
 
 </footer>

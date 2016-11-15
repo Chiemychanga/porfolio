@@ -1,0 +1,109 @@
+#-------------------------------
+# General Site Settings
+
+title: Larry Chiem
+description: Engineer // Intern // Student
+email: larrypchiem@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  Larry is a full-time computer science student at Portland State University.
+  Most of the things he makes are [small programs](https://github.com/Chiemychanga){:target="_blank"}.
+
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '5'}
+- {name: Programming, value: '6'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Hyped! Quackcon Project, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Scrabble C++, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Operator Overloading Game, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Tri-Met Ticket App, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Zoom2PDX, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Graph BFS Traversal, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: ACM, folder: 'proj-7', file: 'work/proj-7.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-aaroni.jpg',
+  name: 'Rohan Elukurthy',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Hank McCoy',
+  title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  logo: 'logo.svg'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Stacy Lang',
+  title: 'Social Media Girl, Quebec Int.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Cleatus Cassidy',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'facebook', link: 'https://www.facebook.com/larry.chiem.3'}
+- {icon: 'github', link: 'https://github.com/ChiemyChanga'}
+- {icon: 'twitter', link: 'https://twitter.com/ChiemyChonga'}
+- {icon: 'youtube', link: 'https://www.youtube.com/user/ChiemyChanga'}
+- {icon: 'instagram', link: 'https://instagram.com/ChiemyChanga'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/larrychiem/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
