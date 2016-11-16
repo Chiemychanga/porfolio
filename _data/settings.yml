@@ -107,9 +107,9 @@ clients:
   logo: 'logo3.png'}
 - {avatar: 'face-nigel.jpg',
   name: 'Nigel Erickson',
-  title: 'Nursing Assistant.',
+  title: 'Larry''s Mentor.',
   quote: '<p><strong>I have watched this man overcomes his faults and strives to better himself.</strong></p>',
-  logo: 'logo4.png'}
+  logo: 'logo4.jpg'}
 
 
 #-------------------------------
