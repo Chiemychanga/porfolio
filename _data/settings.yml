@@ -99,7 +99,7 @@ clients:
   name: 'Rohan Elukurthy',
   title: 'PSU CS Tutor/Grader.',
   quote: '<p><strong>Larry motivated me to work out and in exchange I tutored him.</strong> I was suprised to see him working on commenting only in his first hackathon to learning bootstrap in his second hackathon.</p>',
-  logo: 'logo2.jpg'}
+  logo: 'logo.jpg'}
 - {avatar: 'face-daniel.jpg',
   name: 'Daniel Eyenis',
   title: 'Viewpoint Intern.',
