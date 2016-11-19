@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff142c07-8a66-4421-b2ed-b6bd981e6783" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/img/clients/logo2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/clients/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/clients/logo4.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/clients/logo.jpg" afterPath="$PROJECT_DIR$/assets/img/clients/logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/settings.yml" afterPath="$PROJECT_DIR$/_data/settings.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-    </list>
+    <list default="true" id="ff142c07-8a66-4421-b2ed-b6bd981e6783" name="Default" comment="" />
     <ignored path="porfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -320,12 +312,12 @@
       <workItem from="1479201336484" duration="2965000" />
       <workItem from="1479276925200" duration="1873000" />
       <workItem from="1479291042061" duration="429000" />
-      <workItem from="1479291661605" duration="1015000" />
+      <workItem from="1479291661605" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18050000" />
+    <option name="totallyTimeSpent" value="18254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="35" width="992" height="705" extended-state="0" />
