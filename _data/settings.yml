@@ -93,7 +93,7 @@ clients:
 - {avatar: 'face-kia.jpg',
   name: 'Kiarash Torkian',
   title: 'Government Android Developer.',
-  quote: '<p><strong>He is asian</strong>, therefore he is smart. Hire him.</p>',
+  quote: '<p><strong>I have seen him grow from our first hackathon with CDK Global</strong>, and up to recently when he received his first acceptance letter for an internship with CDK. </p>',
   logo: 'logo1.png'}
 - {avatar: 'face-rohan.jpg',
   name: 'Rohan Elukurthy',
